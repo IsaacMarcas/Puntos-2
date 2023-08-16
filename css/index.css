@@ -1,0 +1,44 @@
+*body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height: 150px;
+    width: 100%;
+    background-color: blue;
+}
+.col-lg-3{
+    background-color: red;
+    height: 900px;
+
+}
+.col-lg-9{
+    background-color: green;
+    display: flex;
+}
+
+.col-lg-9 .card{
+    height: 300px;
+    width: 33.3%;
+    display: flex;
+    padding-top: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color: yellow;
+}
+
+
+footer{
+    background-color: plum;
+    height: 250px;
+    width: 100%;
+}
+
+
+@media (min-width: 320px) and (max-width: 767px){
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    
+}
